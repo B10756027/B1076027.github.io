@@ -7,7 +7,7 @@ body {
     font-family: "微軟正黑體";
 }
 
-section {
+#sec1 {
     margin-left: 400px;
 }
 
@@ -60,5 +60,5 @@ footer {
 
 .self {
     float: left;
-    margin-right: 100px
+    margin-right: 100px;
 }
