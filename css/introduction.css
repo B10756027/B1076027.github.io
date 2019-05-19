@@ -7,6 +7,10 @@ body {
     font-family: "微軟正黑體";
 }
 
+section {
+    margin-left: 30em;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .log {
