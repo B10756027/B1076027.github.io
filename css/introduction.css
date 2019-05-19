@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    margin-left: 30em;
+    margin-left: 400px;
 }
 
 a {
@@ -60,5 +60,5 @@ footer {
 
 .self {
     float: left;
-    margin-right: 50px
+    margin-right: 100px
 }
