@@ -7,6 +7,13 @@ body {
     font-family: "微軟正黑體";
 }
 
+section {
+    font-size: 20px;
+    max-width: 60%;
+    min-width: 10%;
+    margin-inline-start: 30px;
+}
+
 a {
     text-decoration: none;
 }
