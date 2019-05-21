@@ -1,4 +1,4 @@
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
     header {
         height: 80%;
         background-color: rgb(255, 238, 0);
@@ -60,7 +60,7 @@
     }
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
     header {
         height: 80%;
         background-color: rgb(255, 238, 0);
@@ -122,7 +122,7 @@
     }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width: 320px) {
     header {
         height: 80%;
         background-color: rgb(255, 238, 0);
@@ -135,7 +135,7 @@
     }
     h1 {
         text-align: center;
-        font-size: 180px;
+        font-size: 90px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
     .log {
@@ -182,74 +182,4 @@
     footer {
         background-color: yellow;
     }
-}
-
-header {
-    height: 80%;
-    background-color: rgb(255, 238, 0);
-}
-
-body {
-    font-family: "微軟正黑體";
-}
-
-a {
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    font-size: 180px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.log {
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: left;
-}
-
-#fixed {
-    position: fixed;
-    background-color: rgb(255, 238, 0);
-    top: 0em;
-    left: 0em;
-    margin-left: 8px;
-    margin-right: 8px;
-    height: 60px;
-    font-size: 20px;
-    width: 100%;
-    padding-left: 2em;
-}
-
-#top {
-    position: fixed;
-    background-color: yellow;
-    bottom: 3em;
-    right: 1em;
-    font-size: 20px;
-    height: 30px;
-    width: 50px;
-    text-align: center;
-    border-radius: 10px 10px 10px 10px;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
-table {
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-}
-
-tr,
-td {
-    width: 250px;
-}
-
-footer {
-    background-color: yellow;
 }
