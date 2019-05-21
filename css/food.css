@@ -9,7 +9,7 @@ body {
 
 section {
     font-size: 20px;
-    max-width: 60%;
+    max-width: 70%;
     min-width: 10%;
     margin-left: auto;
     margin-right: auto;
@@ -31,6 +31,7 @@ h2 {
 
 .f {
     float: left;
+    margin-right: 50px;
 }
 
 .log {
