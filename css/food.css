@@ -11,7 +11,6 @@ body {
 }
 
 table {
-    font-size: 20px;
     margin: auto;
 }
 
@@ -19,14 +18,7 @@ tr,
 td {
     height: 400px;
     width: 10%;
-}
-
-section {
-    font-size: 20px;
-    max-width: 70%;
-    min-width: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 15px
 }
 
 a {
@@ -40,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 20%;
 }
 
 .log {
