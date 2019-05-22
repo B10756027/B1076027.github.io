@@ -1,7 +1,8 @@
 header {
+    margin-top: 40px;
     width: 100%;
     height: 80%;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 235, 55);
     line-height: 300%;
 }
 
@@ -27,7 +28,7 @@ h1 {
 
 #top {
     position: fixed;
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
     bottom: 3em;
     right: 1em;
     font-size: 20px;
@@ -54,6 +55,6 @@ td {
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
     line-height: 300%;
 }
