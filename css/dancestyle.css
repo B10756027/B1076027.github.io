@@ -1,7 +1,9 @@
 header {
+    margin-top: 40px;
     height: 80%;
     width: 100%;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 235, 55);
+    line-height: 300%;
 }
 
 body {
@@ -36,21 +38,9 @@ h2 {
     text-align: left;
 }
 
-#fixed {
-    position: fixed;
-    background-color: rgb(255, 238, 0);
-    top: 0em;
-    left: 0em;
-    margin-right: 8px;
-    margin-left: 8px;
-    height: 60px;
-    font-size: 20px;
-    width: 100%;
-}
-
 #top {
     position: fixed;
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
     bottom: 3em;
     right: 1em;
     font-size: 20px;
@@ -61,5 +51,6 @@ h2 {
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
+    line-height: 300%;
 }

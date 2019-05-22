@@ -7,30 +7,64 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>美食</title>
     <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                                ☰
+                        </a>
+            <a href="index.html" class="w3-bar-item w3-button">Angshan</a>
+            <a href="introduction.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> 自我介紹</a>
+            <a href="dancestyle.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> 街舞</a>
+            <a href="food.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> 美食</a>
+
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="introduction.html" class="w3-bar-item w3-button" onclick="toggleFunction()">自我介紹</a>
+            <a href="dancestyle.html" class="w3-bar-item w3-button" onclick="toggleFunction()">街舞</a>
+            <a href="food.html" class="w3-bar-item w3-button" onclick="toggleFunction()">美食</a>
+
+        </div>
+    </div>
     <article>
+
+
+        <div id="top">
+            <a href="#sec1"><b>Top</b></a>
+        </div>
         <header>
+            <p>&nbsp;</p>
             <p>&nbsp;</p>
             <h1>Food</h1>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
         </header>
-        <div id="fixed">
-            <a href="index.html"><span class="log">Angshan&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-            <a href="introduction.html">自我介紹&nbsp;&nbsp;&nbsp;</a>
-            <a href="dancestyle.html">舞風&nbsp;&nbsp;&nbsp;</a>
-            <a href="food.html">美食&nbsp;&nbsp;&nbsp;</a>
-        </div>
-        <div id="top">
-            <a href="#sec1"><b>Top</b></a>
-        </div>
         <section>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
         </section>
+        <table>
+            <tbody>
+                <tr>
+
+                    <td align="center">
+                        <img src="p/f1.jpg" width="80%" class="f"></img>
+                    </td>
+                    <td>
+                        <h2>阿西冰店</h2>
+                        <p>地址： 900屏東縣屏東市和平路300號西區公有零售市場內</p>
+                        <p>營業時間: 星期二~星期日&nbsp;11:30~20:00</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
         <section id="sec1">
             <img src="p/f1.jpg" width="35%" class="f"></img>
             <h2>阿西冰店</h2>
@@ -92,5 +126,38 @@
     </article>
 
 </body>
+<script>
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+    // Change style of navbar on scroll
+    window.onscroll = function() {
+        myFunction()
+    };
+
+    function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+            navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+        }
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 
 </html>

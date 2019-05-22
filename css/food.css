@@ -1,12 +1,24 @@
 header {
+    margin-top: 40px;
     height: 80%;
     width: 100%;
-    background-color: rgb(255, 238, 0);
+    background-color: rgb(255, 235, 55);
     line-height: 300%;
 }
 
 body {
     font-family: "微軟正黑體";
+}
+
+table {
+    font-size: 20px;
+    margin: auto;
+}
+
+tr,
+td {
+    height: 400px;
+    width: 10%;
 }
 
 section {
@@ -31,32 +43,15 @@ h2 {
     font-size: 30px;
 }
 
-.f {
-    float: left;
-    margin-right: 50px;
-}
-
 .log {
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
 
-#fixed {
-    position: fixed;
-    background-color: rgb(255, 238, 0);
-    top: 0em;
-    left: 0em;
-    margin-left: 8px;
-    margin-right: 8px;
-    height: 60px;
-    font-size: 20px;
-    width: 100%;
-}
-
 #top {
     position: fixed;
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
     bottom: 3em;
     right: 1em;
     font-size: 20px;
@@ -67,5 +62,5 @@ h2 {
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(255, 235, 55);
 }
