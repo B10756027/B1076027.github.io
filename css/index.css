@@ -30,19 +30,11 @@ h1 {
     background-color: rgb(255, 238, 0);
     font-size: 100%;
     width: 100%;
-    padding-left: 2%;
     top: 0;
-    z-index: 1;
+    left: 0;
+    letter-spacing: 4px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     background-color: #fff;
-    letter-spacing: 4px;
-    padding: 8px 16px;
-}
-
-.w3 {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    background-color: #fff;
-    letter-spacing: 4px;
     padding: 8px 16px;
 }
 
