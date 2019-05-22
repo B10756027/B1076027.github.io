@@ -1,6 +1,8 @@
 header {
     height: 80%;
+    width: 100%;
     background-color: rgb(255, 238, 0);
+    line-height: 300%;
 }
 
 body {
@@ -67,3 +69,5 @@ h2 {
 footer {
     background-color: yellow;
 }
+
+d
