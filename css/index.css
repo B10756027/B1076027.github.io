@@ -1,4 +1,5 @@
 header {
+    width: 100%;
     height: 80%;
     background-color: rgb(255, 238, 0);
 }
@@ -13,7 +14,7 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 180px;
+    font-size: 20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
