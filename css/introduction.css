@@ -51,6 +51,7 @@ table {
 tr,
 td {
     width: 250px;
+    font-size: 25px;
 }
 
 footer {
@@ -61,8 +62,4 @@ footer {
 .self {
     float: left;
     margin-right: 100px;
-}
-
-tr {
-    font-size: 30px;
 }
