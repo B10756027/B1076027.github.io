@@ -1,0 +1,65 @@
+header {
+    margin-top: 40px;
+    height: 80%;
+    width: 100%;
+    background-color: rgb(255, 235, 55);
+    line-height: 300%;
+}
+
+body {
+    font-family: "微軟正黑體";
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.log {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+}
+
+#top {
+    position: fixed;
+    background-color: rgb(255, 235, 55);
+    bottom: 3em;
+    right: 1em;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+table {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+tr,
+td {
+    width: 250px;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgb(255, 235, 55);
+    line-height: 300%;
+}
+
+.self {
+    float: left;
+    margin-right: 100px;
+}
